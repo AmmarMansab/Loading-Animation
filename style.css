@@ -26,7 +26,7 @@ body{
 .circles span{
     background-color: #fff;
     border-radius: 50%;
-    animation: scale 1.6 linear infinite;
+    animation: scale 1.6s linear infinite;
 }
 
 @keyframes scale{
@@ -36,13 +36,13 @@ body{
 }
 
 .circles span:nth-child(4n+3){
-    animation: 200ms;
+    animation-delay: 200ms;
 }
 
 .circles span:nth-child(4n+2){
-    animation: 400ms;
+    animation-delay: 400ms;
 }
 
 .circles span:nth-child(4n+1){
-    animation: 600ms;
+    animation-delay: 600ms;
 }
